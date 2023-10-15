@@ -2,8 +2,10 @@
 ## AIM:
    To implement the holt winters method using python program
 ## Procedure:
-
-
+  1.Import necessary libraries , Matplotlib for plotting, and Pandas for data handling.
+  2.Create an Exponential Smoothing model (Holt-Winters) using statsmodels. Configure the model with trend and seasonal components.
+  3.Creating a time series plot with a specified time range that includes the forecast.
+  4.Generate a long-term forecast by forecasting future values for the entire time series.
 ## Program:
 ```python
 import pandas as pd
